@@ -1,0 +1,147 @@
+/* ===========================
+   General Page Styling
+=========================== */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+/* ===========================
+   Header
+=========================== */
+
+header {
+    background-color: #0078D4;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+header p {
+    margin: 8px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   Sections
+=========================== */
+
+section {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+/* ===========================
+   Section Headings
+=========================== */
+
+h2 {
+    color: #0078D4;
+    border-bottom: 2px solid #0078D4;
+    padding-bottom: 5px;
+}
+
+/* ===========================
+   Lists
+=========================== */
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* ===========================
+   Paragraphs
+=========================== */
+
+p {
+    font-size: 16px;
+}
+
+/* ===========================
+   Horizontal Line
+=========================== */
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+}
+
+/* ===========================
+   Visitor Counter
+=========================== */
+
+#visitor-counter {
+    text-align: center;
+}
+
+#visitor-count {
+    color: #0078D4;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* ===========================
+   Contact Links
+=========================== */
+
+#contact a {
+    color: #0078D4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   Responsive Design
+=========================== */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
